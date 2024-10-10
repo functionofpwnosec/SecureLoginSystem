@@ -1,7 +1,7 @@
 
 
 // global functions
-function request(url, data, callback) {
+function request(url, data, callback) { 
 	var xhr = new XMLHttpRequest();
 	xhr.open('POST', url, true);
 	var loader = document.createElement('div');
